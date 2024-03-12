@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website</title>
+<style>
+    /* Стилі для класу menu */
+    .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        overflow: hidden;
+    }
+    .menu li {
+        float: left; /* Розміщуємо пункти меню в ряд по горизонталі */
+        width: 25%; /* Задаємо ширину кожного пункту меню на 25% */
+    }
+    .menu li a {
+        display: block; /* Змінюємо на блоковий рівень, щоб зайняти весь доступний простір по ширині */
+        color: #333;
+        text-align: center;
+        padding: 14px 0; /* Змінюємо вертикальний відступ для центрування тексту */
+        text-decoration: none;
+    }
+    .menu li a:hover {
+        background-color: #ddd; /* Змінюємо колір фону при наведенні */
+    }
+    /* Стилі для класу small */
+    .small {
+        font-size: smaller;
+        color: #666;
+        text-align: center;
+        padding: 600px 0;
+    }
+    /* Стилі для центрування контейнера */
+    .container {
+        width: 100%; /* ширина контейнера на 100% */
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <!-- Меню -->
+        <ul class="menu">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Послуги</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+        <!-- інформаційні повідомлення -->
+        <div class="small">
+            Адреса поточної сторінки: <span></span><br>
+            Ім'я автора: <span> Сіденко Артем </span><br>
+            Дата: <span>12 03 2024</span>
+        </div>
+    </div>
+</body>
+</html>
